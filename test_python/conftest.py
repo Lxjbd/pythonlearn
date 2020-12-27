@@ -49,5 +49,5 @@ def get_div(request):
 @pytest.fixture(scope="module")
 def get_calc():
     print("获取计算器实例")
-    calc = Calculator
+    calc = Calculator()
     return calc
