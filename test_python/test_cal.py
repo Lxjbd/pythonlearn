@@ -1,7 +1,7 @@
 import pytest
 import yaml
 
-from pythoncode.cal_test import Calculator
+from test_python.pythoncode.cal_test import Calculator
 
 
 def setup_module():

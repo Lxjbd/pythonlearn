@@ -2,7 +2,7 @@ import pytest
 import yaml
 import os
 
-from pythoncode.cal_test import Calculator
+from test_python.pythoncode.cal_test import Calculator
 
 yaml_path = os.path.dirname(__file__) + "/cal_data.yml"
 
